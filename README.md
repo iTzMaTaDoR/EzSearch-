@@ -29,3 +29,22 @@ You can either download the pre-built executable from the `dist` folder or run i
    ```bash
    git clone https://github.com/yourusername/EzSearch.git
 
+### Usage
+1.Open the application.
+
+2.Enter the search term.
+
+3.Choose the folder or directory to search.
+
+4.Watch the loading animation while searching.
+
+5.View results instantly.
+
+### Contributing
+
+Contributions, suggestions, and bug reports are welcome! Please submit a pull request or open an issue.
+
+### License
+
+This project is licensed under the MIT License. See the LICENSE
+ file for details.
