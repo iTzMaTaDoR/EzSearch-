@@ -1,4 +1,3 @@
-# EzSearch.py
 import sys
 import os
 import threading
@@ -31,7 +30,7 @@ class EzSearchApp(QWidget):
         layout.addWidget(self.search_button)
 
         self.progress = QProgressBar()
-        self.progress.setMaximum(0)  # Indeterminate
+        self.progress.setMaximum(0) 
         self.progress.hide()
         layout.addWidget(self.progress)
 
@@ -54,10 +53,10 @@ class EzSearchApp(QWidget):
 
     def perform_search(self, query):
         try:
-            # Fake search simulation (replace with real search logic)
+         
             import time
-            time.sleep(2)  # Simulate search delay
-            # Example results
+            time.sleep(2)  
+           
             results = [
                 f"Result 1 for '{query}'",
                 f"Result 2 for '{query}'",
@@ -79,3 +78,4 @@ if __name__ == "__main__":
     window = EzSearchApp()
     window.show()
     sys.exit(app.exec())
+
