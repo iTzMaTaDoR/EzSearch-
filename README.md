@@ -48,3 +48,7 @@ Contributions, suggestions, and bug reports are welcome! Please submit a pull re
 
 This project is licensed under the MIT License. See the LICENSE
  file for details.
+
+ ### Tip
+
+To find all the files, open the program as administrator.
